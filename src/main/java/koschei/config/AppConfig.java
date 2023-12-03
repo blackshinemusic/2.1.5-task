@@ -21,7 +21,7 @@ public class AppConfig {
     @Bean
     public Needle7 needle7() {
         Needle7 needle7 = new Needle7();
-        needle7.setDeth8(deth()); // Внедрение зависимости через сеттер
+        needle7.setDeth8(deth());
         return needle7;
     }
 
